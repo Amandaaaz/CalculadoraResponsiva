@@ -1,7 +1,8 @@
 # Calculadora Responsiva
 Calculadora em formato 2D simulando uma calculadora real responsiva em todos os dispositivos móveis. Utilizado HTML,CSS E JS.
 
-![image](https://github.com/Amandaaaz/CalculadoraResponsiva/assets/95643803/9bfc43ff-3626-4fa5-83aa-89a9420ddbb7)
+![image](https://github.com/Amandaaaz/CalculadoraResponsiva/assets/95643803/b635a671-062a-4857-80e7-b46bdb39c1a6)
+
 
 
 # Link do projeto
