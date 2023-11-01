@@ -7,5 +7,5 @@ Calculadora em formato 2D simulando uma calculadora real responsiva em todos os 
 
 # Link do projeto
 
-https://amandaaaz.github.io/CalculadoraDolarEmReal/
+https://amandaaaz.github.io/CalculadoraResponsiva/
 
