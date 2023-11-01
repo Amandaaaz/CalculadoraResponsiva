@@ -1,14 +1,14 @@
 let displayValue = '';
 let hasCalculated = false;
 
-function appendToDisplay(value) {
+const appendToDisplay = (value) => {
     if (hasCalculated) {
         clearDisplay();
         hasCalculated = false;
     }
     displayValue += value;
     document.getElementById('result').value = displayValue;
-}
+};
 
 function clearDisplay() {
     displayValue = '';
@@ -16,7 +16,7 @@ function clearDisplay() {
     hasCalculated = false;
 }
 
-function calculateResult() {
+const calculateResult = () => {
     try {
         displayValue = eval(displayValue);
         document.getElementById('result').value = displayValue;
@@ -24,7 +24,7 @@ function calculateResult() {
     } catch (error) {
         document.getElementById('result').value = 'Erro';
     }
-}
+};
 
 function backspace() {
     if (hasCalculated) {
