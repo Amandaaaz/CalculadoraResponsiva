@@ -5,32 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <div class="calculator">
-        <div class="display">
-            <input type="text" id="result" readonly>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="result" readonly>
+            </div>
+            <div class="buttons">
+                <button onclick="clearDisplay()" class="clear-button">C</button>
+                <button onclick="appendToDisplay('7')" class="number-button">7</button>
+                <button onclick="appendToDisplay('8')" class="number-button">8</button>
+                <button onclick="appendToDisplay('9')" class="number-button">9</button>
+                <button onclick="appendToDisplay('/')" class="operator-button">/</button>
+                <button onclick="appendToDisplay('4')" class="number-button">4</button>
+                <button onclick="appendToDisplay('5')" class="number-button">5</button>
+                <button onclick="appendToDisplay('6')" class="number-button">6</button>
+                <button onclick="appendToDisplay('*')" class="operator-button">*</button>
+                <button onclick="appendToDisplay('1')" class="number-button">1</button>
+                <button onclick="appendToDisplay('2')" class="number-button">2</button>
+                <button onclick="appendToDisplay('3')" class="number-button">3</button>
+                <button onclick="appendToDisplay('-')" class="operator-button">-</button>
+                <button onclick="appendToDisplay('0')" class="number-button">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculateResult()" class="equals-button">=</button>
+                <button onclick="appendToDisplay('+')" class="operator-button">+</button>
+                <button onclick="backspace()" class="backspace-button">⌫</button>
+            </div>
         </div>
-        <div class="buttons">
-            <button onclick="clearDisplay()" class="clear-button">C</button>
-            <button onclick="appendToDisplay('7')" class="number-button">7</button>
-            <button onclick="appendToDisplay('8')" class="number-button">8</button>
-            <button onclick="appendToDisplay('9')" class="number-button">9</button>
-            <button onclick="appendToDisplay('/')" class="operator-button">/</button>
-            <button onclick="appendToDisplay('4')" class="number-button">4</button>
-            <button onclick="appendToDisplay('5')" class="number-button">5</button>
-            <button onclick="appendToDisplay('6')" class="number-button">6</button>
-            <button onclick="appendToDisplay('*')" class="operator-button">*</button>
-            <button onclick="appendToDisplay('1')" class="number-button">1</button>
-            <button onclick="appendToDisplay('2')" class="number-button">2</button>
-            <button onclick="appendToDisplay('3')" class="number-button">3</button>
-            <button onclick="appendToDisplay('-')" class="operator-button">-</button>
-            <button onclick="appendToDisplay('0')" class="number-button">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculateResult()" class="equals-button">=</button>
-            <button onclick="appendToDisplay('+')" class="operator-button">+</button>
-            <button onclick="backspace()" class="backspace-button">⌫</button>
-        </div>
+            <div class="footer">
+                <p>Desenvolvido por <a href="https://github.com/Amandaaaz" target="_blank"><i class="fab fa-github"></i> Amanda Fernandes</a></p>
+            </div>
     </div>
     <script src="script.js"></script>
 </body>
